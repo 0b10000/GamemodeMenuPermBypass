@@ -3,7 +3,7 @@
   "id": "gamemode_menu_permission_bypass",
   "version": "${version}",
   "name": "Gamemode Menu Permission Bypass",
-  "description": "",
+  "description": "Bypass the client-side permission check for F3 + N and F3 + F4",
   "authors": [
     "0b10000"
   ],
@@ -22,6 +22,6 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric": "*",
-    "minecraft": "1.19.2"
+    "minecraft": "1.19.3"
   }
 }
