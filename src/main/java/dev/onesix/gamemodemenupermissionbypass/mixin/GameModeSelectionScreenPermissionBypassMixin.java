@@ -1,4 +1,4 @@
-package io.github.zerob10000.gamemodemenupermissionbypass.mixin;
+package dev.onesix.gamemodemenupermissionbypass.mixin;
 
 import net.minecraft.client.gui.screen.GameModeSelectionScreen;
 import net.minecraft.client.network.ClientPlayerEntity;

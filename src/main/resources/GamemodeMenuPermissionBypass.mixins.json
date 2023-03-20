@@ -1,11 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.github.zerob10000.gamemodemenupermissionbypass.mixin",
+  "package": "dev.onesix.gamemodemenupermissionbypass.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "GameModeSelectionScreenPermissionBypassMixin",
-    "ProcessF3PermissionBypassMixin"
+    "ProcessF3PermissionBypassMixin",
+    "GameModeSelectionScreenPermissionBypassMixin"
   ],
   "client": [
   ],

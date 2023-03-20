@@ -1,4 +1,4 @@
-package io.github.zerob10000.gamemodemenupermissionbypass;
+package dev.onesix.gamemodemenupermissionbypass;
 
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
