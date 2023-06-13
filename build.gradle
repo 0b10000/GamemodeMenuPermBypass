@@ -67,11 +67,11 @@ jar {
 modrinth {
     token = System.getenv("MODRINTH_TOKEN")
     projectId = "gamemode-menu-permission-bypass"
-    versionNumber = "1.0.1"
+    versionNumber = "${project.version}"
     versionType = "release"
     uploadFile = remapJar
-    gameVersions = ["1.19.4"]
-    loaders = ["fabric"]
+    gameVersions = ["${project.minecraft_version}"]
+    loaders = ["fabric", "quilt"]
     dependencies {
         required.project "fabric-api"
     }
